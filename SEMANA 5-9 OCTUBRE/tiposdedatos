@@ -1,0 +1,21 @@
+
+public class Tipodedatos {
+
+    public static void main(String[] args) {
+        var datos = Scanner (System .in);
+        System.out.println("Dame tu edad");
+        var edad = datos.nexInt();
+        
+        System.out.println("Dame tu estatura:");
+        var estatura = datos.nexDouble();
+        
+        System.out.println("Dme tu nombre");
+        var nombre = datos.nextLine();
+        
+        
+        System.out.println("Tu edad es"+edad);
+        System.out.println("la estatura es "+estatura);
+        System.out.println("Nombre del juf¿gador es  "+Nombre); 
+        
+        
+   
